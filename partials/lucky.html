@@ -1,0 +1,17 @@
+<p>
+  我们要从 {{ min }} - {{ max }} 中选出本年度最幸运的人。
+</p>
+
+<h1 ng-bind='num' ng-init='num="?" ' ></h1>
+
+<p>
+  <button type='button' class='btn' ng-click='control()' >{{ status =='stop' ?  '开始' : '停止' }}</button>
+</p>
+<p>
+  还有 {{ list.length }} 个候选人
+</p>
+<input type="number" ng-model='min' placeholder='min' ng-init='min=1' >
+<input type="number" ng-model='max' placeholder='max' ng-init='max=100' >
+<p>
+  <a href="#/">Back Home</a>
+</p>

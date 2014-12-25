@@ -1,0 +1,33 @@
+*{
+  margin:0; padding:0
+}
+
+body{
+  font-size:18px;
+  background:#badaf3 url(../img/merry_chirstmas-wide.jpg) 100% 0 no-repeat;
+  background-size:cover; font-family: 'IM Fell Double Pica', georgia, serif;
+}
+
+.container{
+  font-size:2em;
+  width:40%;
+  margin:4%;
+  text-align:center;
+  background-color:#fff;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  background:rgba(255,255,255,.75);
+  border-radius:10px;
+  box-shadow:4px 4px 10px 0 rgba(20,20,20,.6);
+  text-shadow: 2px 2px 3px #fff;
+  font-style:italic;
+  padding:1em; color:#700;
+  color:rgba(120,0,20,.9);
+}
+
+.btn{
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+  font-size: 24px;
+  background: green;
+}
